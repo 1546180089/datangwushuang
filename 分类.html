@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Page</title>
+    <script type="text/javascript">
+        var orign_time = 1496706400;
+        var leftTime = Date.parse(new Date())/1000;//转化成秒
+        var maxTime = orign_time-leftTime;
+        function CountDownTime() {
+            if (maxTime >=0) {
+                var days = parseInt(maxTime/60/60/ 24, 10); //计算剩余的天数
+
+                var hours = parseInt(maxTime/60/60%24, 10); //计算剩余的小时
+
+                var minutes = parseInt(maxTime/60%60, 10); //计算剩余的分钟
+
+                var seconds = parseInt(maxTime%60, 10); //计算剩余的秒数
+                msg = "当前距离下班时间还有"+days+"天"+hours+"时"+minutes+"分"+seconds+"秒"
+                document.getElementById("timer").innerHTML = msg;
+                --maxTime
+            } else {
+                clearInterval(timer);
+                alert("时间到，结束!");
+            }
+        }
+        timer = setInterval("CountDownTime()",1000);
+    </script>
+</head>
+<body>
+
+    <div id="timer" style="color:red" mce_style="color:red"></div>
+
+</body>
+</html>

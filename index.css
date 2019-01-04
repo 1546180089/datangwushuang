@@ -1,0 +1,863 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    width: 7.5rem;
+    /*height: 100rem;*/
+}
+.box .inner{
+    width: 90%;
+    margin: 0 auto;
+}
+.banner{
+    width:100%;
+    height: 3.75rem;
+    /*background:url("../京东/img/1b309d557d8287b2.jpg");*/
+    /*background-size: cover;*/
+    overflow: hidden;
+    position: relative;
+}
+.point ol li{
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    border: 0.05rem solid white;
+    /*background: white;*/
+    float: left;
+    margin-right: 0.1rem;
+    font-size: 0.12rem;
+
+}
+.point ol li.sx{
+    background: white;
+}
+.point{
+    width: 3.75rem;
+    height: 0.5rem;
+}
+.point ol{
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+    list-style: none;
+
+}
+.banner ul{
+    width: 40.5rem;
+    height: 3.75rem;
+    position: relative;
+}
+.banner ul li{
+    width: 6.75rem;
+    height: 3.75rem;
+    float: left;
+    /*display: none;*/
+}
+.banner ul li.show{
+    display: block;
+}
+.banner ul li img{
+    /*width: 100% ;*/
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 0.8rem;
+    background-color: transparent;
+    overflow: hidden;
+    position: fixed;
+    z-index: 999;
+}
+.left span{
+    margin: 0.35rem 0 0 0.35rem;
+    width: 0.35rem;
+    height: 0.35rem;
+    display: block;
+    background: url(../京东/img/下载.png) no-repeat;
+    background-size: 100% 100%;
+}
+.left{
+    float: left;
+}
+.middle{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    z-index: 100;
+    width: 4.5rem;
+    height: 0.5rem;
+    border-radius: 0.4rem;
+    background: #fff;
+}
+.jd-header-icon-jd {
+    /*display: none;*/
+    background: url(../京东/img/下载1.png) no-repeat;
+    background-size: 0.31rem 0.3rem;
+    margin:0.1rem 0.1rem 0 0.25rem;
+    position: relative;
+    z-index: 1;
+    float: left;
+    width: 0.5rem;
+    height: 0.5rem;
+    display: inline-block;
+}
+.jd-header-icon-fdj {
+    display: inline-block;
+    width: 0.2rem;
+    height: 0.2rem;
+    background: url(../京东/img/jd-sprites.png) no-repeat;
+    background-position: -1.05rem 0;
+    background-size: 2.5rem;
+    margin:0.18rem 0 0 0.1rem;
+    position: relative;
+    z-index: 1;
+    float: left;
+}
+.jd-header-search-input {
+    display: inline-block;
+    width: 3rem;
+    border: none;
+    border-radius: 0.15rem;
+    height: 0.3rem;
+    overflow: hidden;
+    background: #f7f7f7;
+    font-size: 0.12rem;
+    -webkit-box-align: center;
+    line-height: 0.3rem;
+    position: absolute;
+    top: 19%;
+    left: 19%;
+    padding-left: 0.35rem;
+    padding-right: 0.1rem;
+    box-sizing: border-box;
+}
+.jd-header-search-input input{
+    border: none;
+}
+.right{
+    width: 2.7rem;
+    height: 0.5rem;
+    line-height: 1rem;
+    text-align: center;
+    color: white;
+    font-size: 0.24rem;
+    float: right;
+}
+.shangbiao{
+    width:100%;
+    height: 4rem;
+    overflow: hidden;
+}
+.shangbiao a{
+    padding: 0.06rem;
+    width:12%;
+    display: inline-block;
+    text-align: center;
+    margin: 0.1rem 0.05rem;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.shangbiao a img{
+    width: 100%;
+}
+.shangbiao span {
+    display: block;
+    width: 1.01rem;
+    /*margin-top: .1rem;*/
+    font-size: .2rem;
+    color: #666;
+}
+.zhong{
+    width: 100%;
+    height: 1.25rem;
+    overflow: hidden;
+}
+.tu{
+    width: 1.73rem;
+    height: 0.16rem;
+    float: left;
+    padding-left: 0.5rem;
+
+}
+.tu img{
+    width: 100%;
+}
+.you{
+    float: right;
+    width: 50%;
+    height: 0.5rem;
+    text-align: center;
+    line-height: 1.3rem;
+    font-size: 0.3rem;
+    padding-left: 0.2rem;
+
+}
+.box1{
+    width: 100%;
+    height: 3rem;
+    overflow: hidden;
+}
+.show-img{
+    height: 3rem;
+    width: 36%;
+    overflow: hidden;
+    padding-left: 0.2rem;
+}
+.show-img img{
+    width: 100%;
+    height: 100%;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.show-img2{
+    height:3rem;
+    width: 2.1rem;
+    overflow: hidden;
+}
+.show-img2 img{
+    width: 100%;
+    height: 100%;
+}
+.box2{
+    /*line-height: 1.7rem;*/
+    height: 1rem;
+    vertical-align: middle;
+}
+div{
+    box-sizing: border-box;
+}
+.seckill-left-link {
+    display: inline-block;
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+.aa{
+    text-decoration: none;
+    height: 0.8rem;
+    line-height: 0.5rem;
+    /*font-size: 0.2rem;*/
+    width:60%;
+}
+.seckill-tit-txt {
+    margin: .3rem .15rem 0;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: .22rem;
+    color: #f02b2b;
+    font-weight: 700;
+}
+* {
+    cursor: pointer !important;
+}
+.title_wrap .seckill-nth, .title_wrap .seckill-timer, .title_wrap .seckill-title {
+    vertical-align: middle;
+}
+.seckill-nth {
+    font-size: 0.18rem;
+    color: #232326;
+    font-weight: 700;
+    display: inline-block;
+}
+.seckill-timer {
+    display: inline-block;
+    margin: 0 0 0 0.06rem;
+}
+.seckill-time {
+    width: 0.18rem;
+    line-height: 0.17rem;
+    color: #232326;
+    font-size: 0.12rem;
+    position: relative;
+}
+.seckill-time, .seckill-time-separator {
+    float: left;
+    display: inline-block;
+    line-height: 0.16rem;
+    height: 0.16rem;
+    font-size: 0.12rem;
+    text-align: center;
+    color: #232326;
+}
+.seckill-time-separator {
+    width: 0.06rem;
+}
+.seckill-time, .seckill-time-separator {
+    float: left;
+    display: inline-block;
+    line-height: 0.16rem;
+    height: 0.16rem;
+    font-size: 0.18rem;
+    text-align: center;
+    color: #232326;
+}
+.seckill-more-link {
+    display: inline-block;
+    color: #f23030;
+    float: right;
+    font-size: 0.18rem;
+    text-align: right;
+    position: relative;
+    /*padding-right:1rem;*/
+    padding: 0.39rem 0.9rem;
+    box-sizing: border-box;
+    width: 40%;
+
+}
+.seckill-more-icon {
+    display: inline-block;
+    width: 0.21rem;;
+    height: 0.21rem;
+    background: url(../京东/img/arrow_rt.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0.6rem;
+    top: 0.35rem;
+}
+.box3{
+    width: 100%;
+    height: 2rem;
+    overflow: hidden;
+    overflow-x:scroll ;
+}
+.box3 ul{
+    width: 13rem;
+    height: 2.3rem;
+}
+.box3 ul li{
+    width: 1.6rem;
+    height: 2.3rem;
+    float: left;
+    overflow: hidden;
+}
+.seckill-item-img, .seckill-item-price{
+    width: 100%;
+    height: 67%;
+    overflow: hidden;
+    padding: 0 .1rem;
+}
+.seckill-item-img img{
+    width: 100%;
+}
+.seckill-item-price {
+    height: 1rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.seckill-new-price {
+    margin-top: 0.1rem;
+    display: block;
+    color: #f23030;
+    font-size: 0.16rem;
+    line-height: 0.16rem;
+    height: 0.16rem;
+    text-align: center;
+    font-weight: 700;
+}
+.seckill-new-price em {
+    font-size: 0.11rem;
+    padding-right: 0.02rem;
+}
+em, i {
+    font-style: normal;
+}
+.seckill-original-price{
+    color: #686868;
+    font-size: 0.12rem;
+    line-height: 0.12rem;
+    margin: 0.04rem 0 0.11rem;
+    text-align: center;
+    padding: 0 0.02rem;
+    display: inline-block;
+    position: relative;
+}
+.seckill-item-price p{
+    font-size: 0.16rem;
+}
+ol,ul{
+    list-style: none;
+}
+.flsPit.fls-tit{
+    height: 0.8rem;
+    margin-top: 0.25rem;
+}
+.floor-tit-img{
+    background-color:#f6f6f6;
+    height: 0.8rem;
+    margin-top: 0.25rem;
+}
+.floor-title{
+    position: relative;
+}
+.floor-tit-img .tit-img {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.floor-tit-img .tit-img img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: block;
+    /*width: 100%;*/
+    max-height: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.box4{
+    width: 100%;
+    height: 4.4rem;
+}
+.box4 .shang{
+    width: 100%;
+    height: 2.3rem;
+    border-bottom: 1px solid #a4a4a42e;
+}
+.box4 .shang .zuo{
+    width: 50%;
+    /*background: #000;*/
+    height: 100%;
+    border-right: 1px solid #a4a4a42e;
+}
+.tit-center {
+    text-align: center;
+    padding-right: .5rem;
+}
+.graphic-text {
+    height: 0.9rem;
+    width: 100%;
+    overflow: initial;
+    position: relative;
+    z-index: 2;
+}
+.graphic-text {
+    float: left;
+    width:100%;
+    padding: 0 0 0 .45rem;
+    overflow: hidden;
+}
+.tit-line {
+    position: relative;
+    padding: 0 1rem;
+}
+.graphic-tit {
+    font-size: .22rem;
+    /*line-height: 1.125rem;*/
+    color: #222;
+    /*display: inline-block;*/
+    max-width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+strong {
+    font-weight: lighter;
+}
+.graphic-tit .line-bg {
+    /*display: inline-block;*/
+    background-color: #fff;
+    /*padding: 0 .2rem;*/
+    position: relative;
+    z-index: 20;
+}
+.graphic-wz {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    /*display: box;*/
+    line-clamp: 1;
+    box-orient: vertical;
+}
+.graphic-wz {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    /*display: box;*/
+    line-clamp: 1;
+    box-orient: vertical;
+    color: #686868;
+    font-size: .6rem;
+    /*line-height: .825rem;*/
+    height: .75rem;
+}
+.graphic-img02 {
+    padding: 0 .7rem;
+    clear: both;
+}
+.graphic-img {
+    width: 100%;
+    height: 3.25rem;
+}
+.graphic-img {
+    margin-right: .25rem;
+    height: 100%;
+}
+.graphic-img02 img {
+    width: 3.25rem;
+    height: 3.25rem;
+    float: left;
+    margin: .275rem .35rem 0;
+}
+.floor .opa1 {
+    opacity: 1;
+    -webkit-transition: opacity .3s ease-in;
+    transition: opacity .3s ease-in;
+}
+
+.graphic-img img {
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.floor-container img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.zi{
+    width: 100%;
+    height: 0.8rem;
+    overflow: hidden;
+}
+.zi p{
+    font-size: .22rem;
+    text-align: center;
+    line-height: 0.3rem;
+}
+.xt{
+    width: 100%;
+    height: 2rem;
+}
+.xt img{
+    width: 1.55rem;
+    height: 1.55rem;
+    overflow: hidden;
+    padding: .1rem;
+    box-sizing: border-box;
+}
+.xia{
+    width: 100%;
+    height: 2rem;
+}
+.lie{
+    width: 25%;
+    height: 2.3rem;
+    border-right: 1px solid #a4a4a42e;
+    overflow: hidden;
+}
+.xz{
+    width: 100%;
+    height: 1.5rem;
+    overflow: hidden;
+}
+.xz img{
+    width: 1.4rem;
+    height: 1.4rem;
+    /*height: 100%;*/
+    padding-left: 0.08rem;
+}
+.box5{
+    width: 100%;
+    height: 4.3rem;
+}
+.box5 .xia .lie{
+    border-bottom: 1px solid #a4a4a42e;
+}
+.b2 .lie{
+    border-bottom: 1px solid #a4a4a42e;
+}
+.box6{
+    width: 100%;
+    height: 7.7rem;
+    overflow: hidden;
+}
+.box6 .shang{
+    height: 2.8rem;
+    border-bottom: 1px solid #4a4a4a2e;
+}
+.box7{
+    width: 100%;
+    height: 8.7rem;
+    overflow: hidden;
+}
+.box7 .shang .zuo{
+    width: 50%;
+    height: 100%;
+}
+.box7 .shang .zuo .zi{
+    width: 50%;
+
+}
+.box7 .shang .zuo .xt{
+    width: 50%;
+
+}
+.box7 .shang .you .zi{
+    width: 50%;
+
+}
+.box7 .shang .you .xt{
+    width: 50%;
+
+}
+.box7 .shang{
+    overflow: hidden;
+    border-bottom: 1px solid  #4a4a4a2e;
+
+}
+.box7 .xia .lie{
+    border-bottom: 1px solid  #4a4a4a2e;
+
+}
+.tj{
+    width: 100%;
+    height: 0.8rem;
+    background: #4a4a4a0f;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.tj span{
+    width: 1rem;
+    height: 0.5rem;
+    display:inline-block;
+    font-size: 0.22rem;
+    text-align: center;
+    /*line-height: 0.3rem;*/
+    margin: 0 auto;
+    /*padding-top: 0.25rem;*/
+}
+.tj p{
+    width:2rem ;
+    height: 1rem;
+    margin: 0 auto;
+    position: absolute;
+    top: -58%;
+    left: 40%;
+}
+.model{
+    width: 100%;
+    /*height: 10rem;*/
+}
+.model1{
+    width: 49%;
+    height: 4.5rem;
+    float: left;
+    margin-right: 0.06rem;
+
+}
+.baot{
+    width: 100%;
+    height: 3.5rem;
+}
+.baot img{
+    width: 100%;
+}
+.similar-product-text {
+    box-sizing: border-box;
+    height: 0.4rem;
+    font-size: 0.16rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-word;
+    color: #232326;
+    margin-top:0.05rem;
+    line-height: 0.22rem;
+    margin-bottom: 0.03rem;
+    padding: 0 0.04rem;
+}
+.similar-product-info {
+    position: relative;
+    height: 0.26rem;
+}
+.similar-product-info {
+    height: 0.22rem;
+    font-size: 0.13rem;
+    overflow: hidden;
+}
+.similar-product-price {
+    color: #f23030;
+    display: inline-block;
+    padding: 0 0.05rem 0 0.04rem;
+    position: relative;
+    top: 1px;
+    height: 0.25rem;
+    line-height: 0.25rem;
+}
+.similar-product-price .big-price {
+    font-size: 0.16rem;
+}
+.guess-button {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0.08rem;
+    text-align: center;
+    color: #686868;
+    font-size: 0.14rem;
+    width: 0.49rem;
+    height: 0.24rem;
+    line-height: 0.25rem;
+}
+.guess-button:after {
+    content: "";
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #bfbfbf;
+    border-radius: 4px;
+    -webkit-transform: scale(.5,.5);
+    transform: scale(.5,.5);
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+}
+footer{
+    width: 7.5rem;
+    height: 1.5rem;
+    background: #FFFFFF;
+    position: relative;
+}
+footer .inner{
+    width: 90%;
+    margin: 0 auto;
+}
+#commonNav > a {
+    position: relative;
+    width: 20%;
+    height: 2.8em;
+    box-sizing: border-box;
+    float: left;
+    font-size: 16px;
+    background-color: transparent;
+    text-align: center;
+}
+#commonNav .icon-center img {
+    position: absolute;
+    left: -2rem;
+    bottom: 0;
+    z-index: 1;
+    width: 3.6em;
+}
+#commonNav .nav-img {
+    vertical-align: bottom;
+}
+.clear:after{
+    clear: both;
+    display: table;
+    content: "";
+}
+.icon-center{
+    width: 20%;
+    float: left;
+}
+.click-loading {
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.16rem;
+    color: #7f7f7f;
+    background: #6e686847;
+}
+.swipe-up-wrapper a, .swipe-up-wrapper span {
+    color: #686868;
+    text-decoration: none;
+}
+.click-loading a{
+    display: block;
+    width: 1rem;
+    margin: auto;
+    color: #686868;
+}
+.m-common-footer {
+    padding-bottom: 0.54rem;
+}
+.m-common-footer {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.common-links {
+    padding: 8px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.m-common-footer .common-icons {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 1.06667vw 2vw;
+}
+.m-common-footer ul {
+    list-style: none;
+}.m-common-footer .common-links li {
+     float: left;
+     text-align: center;
+     width: 25%;
+     overflow: hidden;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+     padding: 0.2rem 0.1rem;
+     box-sizing: border-box;
+ }
+.m-common-footer .common-links a {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #848689;
+    font-size: 3.73333vw;
+    padding-top: 3px;
+}
+.common-links a {
+    font-size: 28px;
+}
+.m-common-footer .common-icons li {
+    float: left;
+    text-align: center;
+    width: 33.3333%;
+}
+.m-common-footer .common-icons li a {
+    display: block;
+    width: 100%;
+    position: relative;
+    padding: 0.2rem;
+}
+.m-common-footer .common-copyright {
+    text-align: center;
+    color: #848689;
+    /*font-size: 1.86667vw;*/
+    /*padding: 2vw 0;*/
+    font-size: 0.16rem;
+    padding: 0.15rem 0;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>京东</title>
+    <script src="js/rem.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jingdongye.js"></script>
+    <script src="js/iscroll.js"></script>
+    <script type="text/javascript">
+        var myScroll;
+        function loaded() {
+            myScroll = new IScroll('#model');
+        }
+        var myScroll = new IScroll('#model', {
+            mouseWheel: true,
+            scrollbars: true
+        });
+    </script>
+</head>
+<body onload="loaded()">
+<div class="box">
+    <div class="inner clear">
+        <header>
+            <div class="left">
+                <span></span>
+            </div>
+            <div class="middle">
+                <i id="search-input-left-jd" class="jd-header-icon-jd"></i>
+
+                <p id="search-input-left-icon" class="jd-header-icon-fdj"></p>
+
+                <div class="jd-header-search-input"><input value="" maxlength="20" name="keyword" id="msKeyWord" type="text"
+                                                           cleardefault="no" autocomplete="off" placeholder="搜索商品/店铺"
+                                                           class="hilight2"><input name="catelogyList" type="text" value=""
+                                                                                   style="display:none;">
+
+                    <div class="head-input-icon J_ping" id="msSearchTab" report-eventid="MSearch_SearchTab"
+                         style="display:none;"></div>
+                </div>
+            </div>
+            <div class="right">登录</div>
+        </header>
+        <div class="banner">
+            <ul>
+                <li class="li1 lb">
+                    <img src="img/1b309d557d8287b2.jpg" alt=""/>
+                </li>
+                <li class="lb">
+                    <img src="img/5bf7bce0Ne5d55ac3.jpg_cr_1125x549_0_72_q70.jpg.jpg" alt=""/>
+                </li>
+                <li class="lb">
+                    <img src="img/5bf76ba6N59f113f8.jpg_cr_1125x549_0_72_q70.jpg.jpg" alt=""/>
+                </li>
+                <li class="lb">
+                    <img src="img/5b20814bN4d869aa3.jpg_cr_1125x549_0_72_q70.jpg.jpg" alt=""/>
+                </li>
+                <li class="lb">
+                    <img src="img/5bf6d3c3Nfb5fe078.jpg" alt=""/>
+                </li>
+                <li class="lb">
+                    <img src="img/5bf67cbbNd9f55d6f.jpg_cr_1125x549_0_72_q70.jpg.jpg" alt=""/>
+                </li>
+            </ul>
+            <div class="point">
+                <ol>
+                    <li class="sx"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ol>
+            </div>
+
+
+        </div>
+        <div class="shangbiao">
+            <a href="#">
+                <img src="img/5ad87bf0N66c5db7c.png" alt=""/>
+                <span>京东超市</span>
+            </a>
+            <a href="#">
+                <img src="img/5ad87cf5N4ad8e6f1.png" alt=""/>
+                <span>京东超市</span>
+            </a>
+            <a href="#">
+                <img src="img/5ae01befN2494769f.png" alt=""/>
+                <span>京东超市</span>
+            </a>
+            <a href="#">
+                <img src="img/5b0cea29N8fb2865f.png" alt=""/>
+                <span>京东超市</span>
+            </a>
+            <a href="#">
+                <img src="img/5b03b74eN3541598d.png" alt=""/>
+                <span>京东超市</span>
+            </a>
+            <a href="#">
+                <img src="img/5b03fae3N67f78fe3.png" alt=""/>
+                <span>京东超市</span>
+            </a>
+            <a href="#">
+                <img src="img/5b850ecaN644d2983.png" alt=""/>
+                <span>京东超市</span>
+            </a>
+            <a href="#">
+                <img src="img/5bbc800fN502129b8.png" alt=""/>
+                <span>京东超市</span>
+            </a>
+            <a href="#">
+                <img src="img/5bee366dN1627d554.png" alt=""/>
+                <span>京东超市</span>
+            </a>
+            <a href="#">
+                <img src="img/32d965fe9a9087a2.png" alt=""/>
+                <span>京东超市</span>
+            </a>
+        </div>
+        <div class="zhong">
+            <div class="tu">
+                <img src="img/5aa8935bN94e31ff6.jpg.dpg" alt=""/>
+            </div>
+            <div class="you">
+                更多
+            </div>
+        </div>
+        <div class="box1">
+            <div class="show-img fl">
+                <img onerror="__reloadResource(this)" class="opa1 ll_fadeIn" src="img/5b4ef440N90d4cec0.jpg!q70.jpg.dpg"
+                     loaded="1" style="opacity: 1;">
+            </div>
+            <div class="show-img2 fl">
+                <img onerror="__reloadResource(this)" class="opa1 ll_fadeIn" src="img/5b7d15f8N6dcc1499.jpg!q70.jpg.dpg"
+                     loaded="1" style="opacity: 1;">
+            </div>
+            <div class="show-img2 fl">
+                <img onerror="__reloadResource(this)" class="opa1 ll_fadeIn" src="img/5b7d15f8N6dcc1499.jpg!q70.jpg.dpg"
+                     loaded="1" style="opacity: 1;">
+            </div>
+        </div>
+        <div class="box2">
+            <!--<div class="title_wrap">-->
+            <a data-event_id="MHome_BHandSeckillTopic" data-event_level="1" class="seckill-left-link j_more_sec_link aa"
+               href="javascript:void(0);" jump-href="//wqs.jd.com/portal/wx/seckill_m/index.shtml">
+                <strong class="seckill-tit-txt">京东秒杀</strong>
+                <strong class="seckill-nth j_sec_order" style="font-color:#000000">16点场</strong>
+
+                <div id="seckill_time" class="seckill-timer">
+                    <div class="seckill-time j_sk_h">01</div>
+                    <span class="seckill-time-separator">:</span>
+
+                    <div class="seckill-time j_sk_m">17</div>
+                    <span class="seckill-time-separator">:</span>
+
+                    <div class="seckill-time j_sk_s">42</div>
+                </div>
+                <span id="seckill_loading"></span>
+            </a>
+            <a data-event_id="MHome_BHandSeckillMore" data-event_level="1" class="seckill-more-link j_more_sec_link"
+               href="javascript:void(0);" jump-href="//wqs.jd.com/portal/wx/seckill_m/index.shtml">
+                更多秒杀<i class="seckill-more-icon"></i>
+            </a>
+            <!--</div>-->
+        </div>
+        <div class="box3">
+            <ul>
+                <li>
+                    <div class="seckill-item-img">
+                        <img onerror="__reloadResource(this)" src="img/5bf532bdNb3faade6.png" class="seckill-photo">
+                    </div>
+                    <div class="seckill-item-price">
+                    <span class="seckill-new-price"><em>¥</em><span class="j_init_price"
+                                                                    price="121600">1216</span></span>
+
+                        <p><em>¥</em><span class="j_init_price" style="text-decoration: line-through"
+                                           price="329900">3299</span>
+                        <hr>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="seckill-item-img">
+                        <img onerror="__reloadResource(this)" src="img/5bfb9db6Ne4a02dc0.jpg.dpg" class="seckill-photo">
+                    </div>
+                    <div class="seckill-item-price">
+                    <span class="seckill-new-price"><em>¥</em><span class="j_init_price"
+                                                                    price="121600">1216</span></span>
+
+                        <p><em>¥</em><span class="j_init_price" style="text-decoration: line-through"
+                                           price="329900">3299</span>
+                        <hr>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="seckill-item-img">
+                        <img onerror="__reloadResource(this)" src="img/5bf4e9a5N3125982d.jpg.dpg" class="seckill-photo">
+                    </div>
+                    <div class="seckill-item-price">
+                    <span class="seckill-new-price"><em>¥</em><span class="j_init_price"
+                                                                    price="121600">1216</span></span>
+
+                        <p><em>¥</em><span class="j_init_price" style="text-decoration: line-through"
+                                           price="329900">3299</span>
+                        <hr>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="seckill-item-img">
+                        <img onerror="__reloadResource(this)" src="img/5bf1add2Na0dff73e.jpg.dpg" class="seckill-photo">
+                    </div>
+                    <div class="seckill-item-price">
+                    <span class="seckill-new-price"><em>¥</em><span class="j_init_price"
+                                                                    price="121600">1216</span></span>
+
+                        <p><em>¥</em><span class="j_init_price" style="text-decoration: line-through"
+                                           price="329900">3299</span>
+                        <hr>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="seckill-item-img">
+                        <img onerror="__reloadResource(this)" src="img/5becfc23Nc8daddee.jpg.dpg" class="seckill-photo">
+                    </div>
+                    <div class="seckill-item-price">
+                    <span class="seckill-new-price"><em>¥</em><span class="j_init_price"
+                                                                    price="121600">1216</span></span>
+
+                        <p><em>¥</em><span class="j_init_price" style="text-decoration: line-through"
+                                           price="329900">3299</span>
+                        <hr>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="seckill-item-img">
+                        <img onerror="__reloadResource(this)" src="img/5bf4e9a5N3125982d.jpg.dpg" class="seckill-photo">
+                    </div>
+                    <div class="seckill-item-price">
+                    <span class="seckill-new-price"><em>¥</em><span class="j_init_price"
+                                                                    price="121600">1216</span></span>
+
+                        <p><em>¥</em><span class="j_init_price" style="text-decoration: line-through"
+                                           price="329900">3299</span>
+                        <hr>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="seckill-item-img">
+                        <img onerror="__reloadResource(this)" src="img/5bf1add2Na0dff73e.jpg.dpg" class="seckill-photo">
+                    </div>
+                    <div class="seckill-item-price">
+                    <span class="seckill-new-price"><em>¥</em><span class="j_init_price"
+                                                                    price="121600">1216</span></span>
+
+                        <p><em>¥</em><span class="j_init_price" style="text-decoration: line-through"
+                                           price="329900">3299</span>
+                        <hr>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="seckill-item-img">
+                        <img onerror="__reloadResource(this)" src="img/5becfc23Nc8daddee.jpg.dpg" class="seckill-photo">
+                    </div>
+                    <div class="seckill-item-price">
+                    <span class="seckill-new-price"><em>¥</em><span class="j_init_price"
+                                                                    price="121600">1216</span></span>
+
+                        <p><em>¥</em><span class="j_init_price" style="text-decoration: line-through"
+                                           price="329900">3299</span>
+                        <hr>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="flsPit fls-tit">
+            <div class="floor-title floor-tit-img" data-floorname="东家小院">
+                          <span class="tit-img">
+                              <img onerror="__reloadResource(this)" class="ll_fadeIn"
+                                   src="img/5b7a6fa1N94e7f9d9.jpg!q70.jpg.dpg"
+                                   loaded="1" style="opacity: 1;">
+
+                          </span>
+            </div>
+        </div>
+        <div class="box4">
+            <div class="shang">
+                <div class="zuo fl">
+                    <div class="zi">
+                        <!--<p>-->
+                            <p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem">-温暖用车-</p>
+                        <!--</p>-->
+                        <p class="graphic-wz" style="color:#648EFF">
+                            冬季用车不惧严寒
+                        </p>
+                    </div>
+                    <div class="xt">
+                            <img onerror="__reloadResource(this)" class="fl" src="img/5bb76d0cNe70f958b.jpg!q70.jpg.dpg" loaded="1" style="opacity: 1;">
+                            <img onerror="__reloadResource(this)" class="fl" src="img/5a1690bdNbf745c13.jpg!q70.jpg.dpg" loaded="1" style="opacity: 1;">
+                    </div>
+                </div>
+                <div class="you fr">
+                    <div class="zi">
+                        <!--<p>-->
+                        <p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem">-洞房花烛-</p>
+                        <!--</p>-->
+                        <p class="graphic-wz" style="color:#648EFF;">
+                            我们今天结婚了
+                        </p>
+                    </div>
+                    <div class="xt">
+                        <img onerror="__reloadResource(this)" class="fl" src="img/5b6264dbN0a9ed3a7.jpg!q70.jpg.dpg" loaded="1" style="opacity: 1;">
+                        <img onerror="__reloadResource(this)" class="fl" src="img/d15108c4322a33c2.jpg!q70.jpg.dpg" loaded="1" style="opacity: 1;">
+                    </div>
+                </div>
+            </div>
+            <div class="xia">
+                <div class="lie fl">
+                    <div class="zi">
+                        <!--<p>-->
+                        <p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem">时尚耐用</p>
+                        <!--</p>-->
+                        <p class="graphic-wz" style="color:#648EFF">
+                            踏足绿莺厂
+                        </p>
+                    </div>
+                    <div class="xz">
+                        <img src="img/5bfd6d99Nac365d65.jpg!q70.jpg.dpg" alt=""/>
+                    </div>
+                </div>
+                <div class="lie fl">
+                    <div class="zi">
+                        <!--<p>-->
+                        <p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem">品酒大师</p>
+                        <!--</p>-->
+                        <p class="graphic-wz" style="color:#648EFF">
+                            美食与佐料
+                        </p>
+                    </div>
+                    <div class="xz">
+                        <img src="img/5bfb9ef5N8e0d263f.jpg!q70.jpg.dpg" alt=""/>
+                    </div>
+                </div>
+                <div class="lie fl">
+                    <div class="zi">
+                        <!--<p>-->
+                        <p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem">百变女王</p>
+                        <!--</p>-->
+                        <p class="graphic-wz" style="color:#648EFF">
+                            女神范
+                        </p>
+                    </div>
+                    <div class="xz">
+                        <img src="img/5836a2a5N5102b854.jpg!q70.jpg.dpg" alt=""/>
+                    </div>
+                </div>
+                <div class="lie fl" style="border-right: 1px solid transparent">
+                    <div class="zi">
+                        <!--<p>-->
+                        <p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem">有矿家庭</p>
+                        <!--</p>-->
+                        <p class="graphic-wz" style="color:#648EFF">
+                            钱多有矿
+                        </p>
+                    </div>
+                    <div class="xz">
+                        <img src="img/92b8e03e9eb43416.jpg!q70.jpg.dpg" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flsPit fls-tit">
+            <div class="floor-title floor-tit-img" data-floorname="东家小院">
+                          <span class="tit-img">
+                              <img onerror="__reloadResource(this)" class="ll_fadeIn"
+                                   src="img/5b0fecc7N541bb0dd.png!q70.jpg.dpg"
+                                   loaded="1" style="opacity: 1;width: 100%">
+                          </span>
+            </div>
+        </div>
+        <div class="box5">
+            <div class="xia">
+                <div class="lie fl">
+                    <div class="zi">
+                        <p class="graphic-tit" data-color="#FF2A00,#FF00AF" style=" background: -webkit-linear-gradient(left,#FF2A00,#FF00AF);
+                                                               background: linear-gradient(90deg, #FF2A00,#FF00AF);
+                                                               -webkit-background-clip: text;
+                                                               color: transparent;font-size: 0.3rem">优惠之乡</p>
+                        <p class="graphic-wz" style="color:#648EFF">
+                            低价抢大牌
+                        </p>
+                    </div>
+                    <div class="xz">
+                        <img src="img/5a72e350N312295c0.png!q70.jpg.dpg" alt=""/>
+                    </div>
+                </div>
+                <div class="lie fl">
+                    <div class="zi">
+                        <p class="graphic-tit" data-color="#FF2A00,#FF00AF" style=" background: -webkit-linear-gradient(left,#FF2A00,#FF00AF);
+                                                               background: linear-gradient(90deg, #FF2A00,#FF00AF);
+                                                               -webkit-background-clip: text;
+                                                               color: transparent;font-size: 0.3rem">闪购</p>
+                        <p class="graphic-wz" style="color:#648EFF">
+                            闪价抢购
+                        </p>
+                    </div>
+                    <div class="xz">
+                        <img src="img/5be63ee3N093bbe4d.jpg!q70.jpg.dpg" alt=""/>
+                    </div>
+                </div>
+                <div class="lie fl">
+                    <div class="zi">
+                        <!--<p>-->
+                        <!--<p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem">拍拍二手</p>-->
+                        <p class="graphic-tit" data-color="#FF2A00,#FF00AF" style=" background: -webkit-linear-gradient(left,#FF2A00,#FF00AF);
+                                                               background: linear-gradient(90deg, #FF2A00,#FF00AF);
+                                                               -webkit-background-clip: text;
+                                                               color: transparent;font-size: 0.3rem">拍拍二手</p>
+                        <!--</p>-->
+                        <p class="graphic-wz" style="color:#648EFF">
+                            5折起
+                        </p>
+                    </div>
+                    <div class="xz">
+                        <img src="img/5836a2a5N5102b854.jpg!q70.jpg.dpg" alt=""/>
+                    </div>
+                </div>
+                <div class="lie fl" style="border-right: 1px solid transparent">
+                    <div class="zi">
+                        <p class="graphic-tit" data-color="#FF2A00,#FF00AF" style=" background: -webkit-linear-gradient(left,#FF2A00,#FF00AF);
+                                                               background: linear-gradient(90deg, #FF2A00,#FF00AF);
+                                                               -webkit-background-clip: text;
+                                                               color: transparent;font-size: 0.3rem">优享免息</p>
+
+                        <p class="graphic-wz" style="color:#648EFF">
+                            分期免息
+                        </p>
+                    </div>
+                    <div class="xz">
+                        <img src="img/5bf2319dN15a43fda.png!q70.jpg.dpg" alt=""/>
+                    </div>
+                </div>
+            </div>
+            <div class="xia b2">
+                <div class="lie fl" style="border-bottom: 1px solid transparent">
+                    <div class="zi">
+                        <p class="graphic-tit" data-color="#D400FF,#FF320A" style=" background: -webkit-linear-gradient(left,#D400FF,#FF320A);
+                                                               background: linear-gradient(90deg, #D400FF,#FF320A);
+                                                               -webkit-background-clip: text;
+                                                               color: transparent;font-size: 0.3rem">排行榜</p>
+                        <p class="graphic-wz" style="color:#648EFF">
+                            踏足绿莺厂
+                        </p>
+                    </div>
+                    <div class="xz">
+                        <img src="img/5bfd6d99Nac365d65.jpg!q70.jpg.dpg" alt=""/>
+                    </div>
+                </div>
+                <div class="lie fl" style="border-bottom: 1px solid transparent">
+                    <div class="zi">
+                        <p class="graphic-tit" data-color="#00C2AB,#3E94FF" style=" background: -webkit-linear-gradient(left,#00C2AB,#3E94FF);
+                                                               background: linear-gradient(90deg, #00C2AB,#3E94FF);
+                                                               -webkit-background-clip: text;
+                                                               color: transparent;font-size: 0.3rem">发现好货</p>
+                        <p class="graphic-wz" style="color:#648EFF">
+                            美食与佐料
+                        </p>
+                    </div>
+                    <div class="xz">
+                        <img src="img/5bfb9ef5N8e0d263f.jpg!q70.jpg.dpg" alt=""/>
+                    </div>
+                </div>
+                <div class="lie fl" style="border-bottom: 1px solid transparent">
+                    <div class="zi">
+                        <p class="graphic-tit" data-color="#FF765C,#FF23B3" style=" background: -webkit-linear-gradient(left,#FF765C,#FF23B3);
+                                                               background: linear-gradient(90deg, #FF765C,#FF23B3);
+                                                               -webkit-background-clip: text;
+                                                               color: transparent;font-size: 0.3rem">会买专辑</p>
+                        <p class="graphic-wz" style="color:#648EFF">
+                            女神范
+                        </p>
+                    </div>
+                    <div class="xz">
+                        <img src="img/5836a2a5N5102b854.jpg!q70.jpg.dpg" alt=""/>
+                    </div>
+                </div>
+                <div class="lie fl" style="border-right: 1px solid transparent;border-bottom: 1px solid transparent">
+                    <div class="zi">
+                        <p class="graphic-tit" data-color="#2AD396,#85BB1F" style=" background: -webkit-linear-gradient(left,#2AD396,#85BB1F);
+                                                               background: linear-gradient(90deg, #2AD396,#85BB1F);
+                                                               -webkit-background-clip: text;
+                                                               color: transparent;font-size: 0.3rem">新品首发</p>
+                        <p class="graphic-wz" style="color:#648EFF">
+                            钱多有矿
+                        </p>
+                    </div>
+                    <div class="xz">
+                        <img src="img/92b8e03e9eb43416.jpg!q70.jpg.dpg" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flsPit fls-tit">
+            <div class="floor-title floor-tit-img" data-floorname="东家小院">
+                          <span class="tit-img">
+                              <img onerror="__reloadResource(this)" class="ll_fadeIn"
+                                   src="img/5aa0dbc1Nefd2bd2a.png!q70.jpg.dpg"
+                                   loaded="1" style="opacity: 1;width: 100%">
+                          </span>
+            </div>
+        </div>
+        <div class="box6">
+            <div class="shang">
+                <div class="zuo fl" style="border-right: 1px solid #4a4a4a2e;">
+                    <div class="zi" style="padding-top: 0.2rem">
+                        <p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem;text-align: left">玩3C</p>
+                        <p class="graphic-wz" style="color:#FF5959;text-align: left">
+                            努比亚X  双屏黑科技来袭
+                        </p>
+                    </div>
+                    <div class="xt" style="padding-top: 0.2rem">
+                        <img onerror="__reloadResource(this)" class="fl" src="img/5b90f5bfNcd58f18b.png!q70.jpg.dpg" loaded="1" style="opacity: 1;">
+                        <img onerror="__reloadResource(this)" class="fl" src="img/5b87bf15N9409ba0e.png!q70.jpg.dpg" loaded="1" style="opacity: 1;">
+                    </div>
+                </div>
+                <div class="you fr" >
+                    <div class="zi" style="padding-top: 0.2rem">
+                        <p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem;text-align: left">京东家电</p>
+                        <p class="graphic-wz" style="color:#FF5959;text-align: left">
+                            家电狂欢 京彩有你
+                        </p>
+                    </div>
+                    <div class="xt" style="padding-top: 0.2rem">
+                        <img onerror="__reloadResource(this)" class="fl" src="img/5b2a528eN7c6bde83.jpg!q70.jpg.dpg" loaded="1" style="opacity: 1;">
+                        <img onerror="__reloadResource(this)" class="fl" src="img/5b2a5295N5a81ad96.jpg!q70.jpg.dpg" loaded="1" style="opacity: 1;">
+                    </div>
+                </div>
+            </div>
+            <div class="shang">
+                <div class="zuo fl" style="border-right: 1px solid #4a4a4a2e;">
+                    <div class="zi" style="padding-top: 0.2rem">
+                        <p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem;text-align: left">京东超市</p>
+                        <p class="graphic-wz" style="color:#FF5959;text-align: left">
+                            超市好货特货价购
+                        </p>
+                    </div>
+                    <div class="xt" style="padding-top: 0.2rem">
+                        <img onerror="__reloadResource(this)" class="fl" src="img/5b063c38N5ad400c1.jpg!q70.jpg.dpg" loaded="1" style="opacity: 1;">
+                        <img onerror="__reloadResource(this)" class="fl" src="img/5b8747caN2c41addf.jpg!q70.jpg.dpg" loaded="1" style="opacity: 1;">
+                    </div>
+                </div>
+                <div class="you fr" >
+                    <div class="zi" style="padding-top: 0.2rem">
+                        <p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem;text-align: left">爱家</p>
+                        <p class="graphic-wz" style="color:#FF5959;text-align: left">
+                            家电狂欢 部分满199减100
+                        </p>
+                    </div>
+                    <div class="xt" style="padding-top: 0.2rem">
+                        <img onerror="__reloadResource(this)" class="fl" src="img/5b2a528eN7c6bde83.jpg!q70.jpg.dpg" loaded="1" style="opacity: 1;">
+                        <img onerror="__reloadResource(this)" class="fl" src="img/5a2a6d49Nc1a009d3.jpg!q70.jpg.dpg" loaded="1" style="opacity: 1;">
+                    </div>
+                </div>
+            </div>
+            <div class="xia">
+                <div class="lie fl">
+                    <div class="zi">
+                        <!--<p>-->
+                        <p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem">家有萌宝</p>
+                        <!--</p>-->
+                        <p class="graphic-wz" style="color:#648EFF">
+                            低至五折
+                        </p>
+                    </div>
+                    <div class="xz">
+                        <img src="img/5ab4c680N7d291625.jpg!q70.jpg.dpg" alt=""/>
+                    </div>
+                </div>
+                <div class="lie fl">
+                    <div class="zi">
+                        <!--<p>-->
+                        <p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem">个护馆</p>
+                        <!--</p>-->
+                        <p class="graphic-wz" style="color:#648EFF">
+                            9.9拼购
+                        </p>
+                    </div>
+                    <div class="xz">
+                        <img src="img/5b3d96a6N9b7dd73a.jpg!q70.jpg.dpg" alt=""/>
+                    </div>
+                </div>
+                <div class="lie fl">
+                    <div class="zi">
+                        <!--<p>-->
+                        <p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem">爱吃</p>
+                        <!--</p>-->
+                        <p class="graphic-wz" style="color:#648EFF">
+                            9.9元包邮
+                        </p>
+                    </div>
+                    <div class="xz">
+                        <img src="img/5a697f47Nc952ed7f.jpg!q70.jpg.dpg" alt=""/>
+                    </div>
+                </div>
+                <div class="lie fl" style="border-right: 1px solid transparent">
+                    <div class="zi">
+                        <!--<p>-->
+                        <p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem">有矿家庭</p>
+                        <!--</p>-->
+                        <p class="graphic-wz" style="color:#648EFF">
+                            钱多有矿
+                        </p>
+                    </div>
+                    <div class="xz">
+                        <img src="img/5b053603N0f65aec5.jpg!q70.jpg.dpg" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flsPit fls-tit">
+            <div class="floor-title floor-tit-img" data-floorname="东家小院">
+                          <span class="tit-img">
+                              <img onerror="__reloadResource(this)" class="ll_fadeIn"
+                                   src="img/5aa23f27Nfa6d6be3.png!q70.jpg.dpg"
+                                   loaded="1" style="opacity: 1;width: 100%">
+                          </span>
+            </div>
+        </div>
+        <div class="box7 clear">
+            <div class="shang">
+                <div class="zuo fl" style="border-right: 1px solid #4a4a4a2e;">
+                    <div class="zi fl" style="padding-top: 0.2rem">
+                        <p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem;text-align: left">美食城</p>
+                        <p class="graphic-wz" style="color:#D663E1;text-align: left">
+                            低至五折
+                        </p>
+                    </div>
+                    <div class="xt fl" style="padding-top: 0.2rem">
+                        <img onerror="__reloadResource(this)" class="fl" src="img/5a698c01Nab864629.jpg!q70.jpg.dpg" loaded="1" style="opacity: 1;">
+                        <!--<img onerror="__reloadResource(this)" class="fl" src="img/5b87bf15N9409ba0e.png!q70.jpg.dpg" loaded="1" style="opacity: 1;">-->
+                    </div>
+                </div>
+                <div class="you fr" >
+                    <div class="zi fl" style="padding-top: 0.2rem">
+                        <p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem;text-align: left">母婴馆</p>
+                        <p class="graphic-wz" style="color:#D663E1;text-align: left">
+                            超值拼团
+                        </p>
+                    </div>
+                    <div class="xt fl" style="padding-top: 0.2rem">
+                        <!--<img onerror="__reloadResource(this)" class="fl" src="img/5b2a528eN7c6bde83.jpg!q70.jpg.dpg" loaded="1" style="opacity: 1;">-->
+                        <img onerror="__reloadResource(this)" class="fl" src="img/57bd63c3N06b2d3c2.jpg!q70.jpg.dpg" loaded="1" style="opacity: 1;">
+                    </div>
+                </div>
+            </div>
+            <div class="shang" >
+                <div class="zuo fl" style="border-right: 1px solid #4a4a4a2e;border-bottom: 1px solid transparent">
+                    <div class="zi fl" style="padding-top: 0.2rem">
+                        <p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem;text-align: left">美食城</p>
+                        <p class="graphic-wz" style="color:#D663E1;text-align: left">
+                            低至五折
+                        </p>
+                    </div>
+                    <div class="xt fl" style="padding-top: 0.2rem">
+                        <img onerror="__reloadResource(this)" class="fl" src="img/5bc6d757N3dba33b7.jpg!q70.jpg.dpg" loaded="1" style="opacity: 1;">
+                        <!--<img onerror="__reloadResource(this)" class="fl" src="img/5b87bf15N9409ba0e.png!q70.jpg.dpg" loaded="1" style="opacity: 1;">-->
+                    </div>
+                </div>
+                <div class="you fr" >
+                    <div class="zi fl" style="padding-top: 0.2rem">
+                        <p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem;text-align: left">母婴馆</p>
+                        <p class="graphic-wz" style="color:#D663E1;text-align: left">
+                            超值拼团
+                        </p>
+                    </div>
+                    <div class="xt fl" style="padding-top: 0.2rem">
+                        <!--<img onerror="__reloadResource(this)" class="fl" src="img/5b2a528eN7c6bde83.jpg!q70.jpg.dpg" loaded="1" style="opacity: 1;">-->
+                        <img onerror="__reloadResource(this)" class="fl" src="img/e55c2fb826efe911.jpg!q70.jpg.dpg" loaded="1" style="opacity: 1;">
+                    </div>
+                </div>
+            </div>
+            <div class="xia">
+                <div class="lie fl">
+                    <div class="zi">
+                        <!--<p>-->
+                        <p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem">家有萌宝</p>
+                        <!--</p>-->
+                        <p class="graphic-wz" style="color:#648EFF">
+                            低至五折
+                        </p>
+                    </div>
+                    <div class="xz">
+                        <img src="img/5ab4c680N7d291625.jpg!q70.jpg.dpg" alt=""/>
+                    </div>
+                </div>
+                <div class="lie fl">
+                    <div class="zi">
+                        <!--<p>-->
+                        <p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem">个护馆</p>
+                        <!--</p>-->
+                        <p class="graphic-wz" style="color:#648EFF">
+                            9.9拼购
+                        </p>
+                    </div>
+                    <div class="xz">
+                        <img src="img/5b3d96a6N9b7dd73a.jpg!q70.jpg.dpg" alt=""/>
+                    </div>
+                </div>
+                <div class="lie fl">
+                    <div class="zi">
+                        <!--<p>-->
+                        <p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem">爱吃</p>
+                        <!--</p>-->
+                        <p class="graphic-wz" style="color:#648EFF">
+                            9.9元包邮
+                        </p>
+                    </div>
+                    <div class="xz">
+                        <img src="img/5a697f47Nc952ed7f.jpg!q70.jpg.dpg" alt=""/>
+                    </div>
+                </div>
+                <div class="lie fl" style="border-right: 1px solid transparent">
+                    <div class="zi">
+                        <!--<p>-->
+                        <p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem">有矿家庭</p>
+                        <!--</p>-->
+                        <p class="graphic-wz" style="color:#648EFF">
+                            钱多有矿
+                        </p>
+                    </div>
+                    <div class="xz">
+                        <img src="img/5b053603N0f65aec5.jpg!q70.jpg.dpg" alt=""/>
+                    </div>
+                </div>
+            </div>
+            <div class="xia">
+                <div class="lie fl" style="border-bottom:1px solid transparent;">
+                    <div class="zi">
+                        <!--<p>-->
+                        <p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem">家有萌宝</p>
+                        <!--</p>-->
+                        <p class="graphic-wz" style="color:#648EFF">
+                            低至五折
+                        </p>
+                    </div>
+                    <div class="xz">
+                        <img src="img/5ab4c680N7d291625.jpg!q70.jpg.dpg" alt=""/>
+                    </div>
+                </div>
+                <div class="lie fl" style="border-bottom:1px solid transparent;">
+                    <div class="zi">
+                        <!--<p>-->
+                        <p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem">个护馆</p>
+                        <!--</p>-->
+                        <p class="graphic-wz" style="color:#648EFF">
+                            9.9拼购
+                        </p>
+                    </div>
+                    <div class="xz">
+                        <img src="img/5b3d96a6N9b7dd73a.jpg!q70.jpg.dpg" alt=""/>
+                    </div>
+                </div>
+                <div class="lie fl" style="border-bottom:1px solid transparent;">
+                    <div class="zi">
+                        <!--<p>-->
+                        <p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem">爱吃</p>
+                        <!--</p>-->
+                        <p class="graphic-wz" style="color:#648EFF">
+                            9.9元包邮
+                        </p>
+                    </div>
+                    <div class="xz">
+                        <img src="img/5a697f47Nc952ed7f.jpg!q70.jpg.dpg" alt=""/>
+                    </div>
+                </div>
+                <div class="lie fl" style="border-right: 1px solid transparent;border-bottom: 1px solid transparent">
+                    <div class="zi">
+                        <!--<p>-->
+                        <p class="line-bg j_linear_color" data-color="#000000" style="color: rgb(0, 0, 0);font-size: 0.3rem">有矿家庭</p>
+                        <!--</p>-->
+                        <p class="graphic-wz" style="color:#648EFF">
+                            钱多有矿
+                        </p>
+                    </div>
+                    <div class="xz">
+                        <img src="img/5b053603N0f65aec5.jpg!q70.jpg.dpg" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tj">
+            <p>
+                <img src="img/下载 (2).png" alt=""/>
+                <span>每日推荐</span>
+            </p>
+
+        </div>
+        <div class="model clear" id="model" >
+            <div class="model1" articleid="$articleid$" style="display: none">
+                <div class="baot">
+                    <img src="img/5b5923c7N54fd5941.jpg!q70.dpg" alt=""/>
+                </div>
+                <span class="similar-product-text">$descript$</span>
+                <p class="similar-product-info">
+                    <span class="similar-product-price">
+                        <span class="big-price">$creatAt$</span>
+                    </span>
+                    <span data-event_id="MHomeGuessYouLike_BSimilarities" data-event_level="1" data-event_param="1_32328633104_1" class="guess-button j_see_similar" jump-href="//home.m.jd.com/myjd/similar/list.action?skuId=32328633104">看相似</span>
+                </p>
+            </div>
+
+        </div>
+        <div style="" class="click-loading j_click_load_rec">
+            <a href="javascript:void(0);">点击继续加载</a>
+        </div>
+        <div id="mCommonFooter" class="m-common-footer">
+            <ul class="common-links">
+                <li>
+                    <a href="" ping-event-id="MCommonTail_Login">登录</a>
+                </li>
+                <li>
+                    <a href="javascript: void(0)" clickurl="">注册</a>
+                </li>
+                <li>
+                    <a href="javascript: void(0)" clickurl="">客户服务</a>
+                </li>
+                <li>
+                    <a href="javascript: void(0)" ping-event-id="MCommonTail_BackToTop" onclick="window.scrollTo(0,0);" style="border-right: 1px solid transparent">返回顶部</a>
+                </li>
+            </ul>
+            <ul class="common-icons">
+                <li>
+                    <a href="javascript: void(0)" clickurl="//h5.m.jd.com/active/download/download.html?channel=jd-m" ping-event-id="MCommonTail_ToApp">
+            <img src="img/5ab1c0deN947bdcba.png" class="conmmon-icon-item"></a></li><li><a href="javascript: void(0)" id="internationalSite" ping-event-id="MCommonTail_InterVersion">
+                <img src="img/5ab0b8e9Ne9c48331.png" class="conmmon-icon-item"></a></li><li><a href="javascript: void(0)" clickurl="//www.jd.com/#m" ping-event-id="MCommonTail_ToPC">
+                <img src="img/5ab1c0f2N51c3f1bb.png" class="conmmon-icon-item"></a></li></ul>
+            <div class="common-copyright">Copyright © 2004-2018 京东JD.com 版权所有</div></div>
+    </div>
+    <footer>
+        <div class="inner">
+            <a id="mCommonHome" style="width: 20%" href="javascript:void(0)" class="J_ping" report-eventid="MCommonBottom_Home"><div class="icon-center"><img class="nav-img" src="img/5aa10cd2N46f18ce6.png"></div></a>
+            <a id="mCommonType" style="width: 20%" href="" class="J_ping" report-eventid="MCommonBottom_Category"><div class="icon-center"><img class="nav-img" src="img/5aa10cdbNa9cd0320.png"></div></a>
+            <a id="mCommonDiscover" style="width: 20%" href="" class="J_ping" report-eventid="MCommonBottom_Find"><div class="icon-center"><img class="nav-img" src="img/5b8e4ac3N749fb56e.png"></div></a>
+            <a id="mCommonCart" style="width: 20%" href="" class="J_ping" report-eventid="MCommonBottom_Cart"><div class="icon-center"><img class="nav-img" src="img/5aa10ceaN649eec12.png"></div></a>
+            <a id="mCommonMy" style="width: 20%" href="" class="J_ping" report-eventid="MCommonBottom_NotLogin"><div class="icon-center"><img class="nav-img" src="img/5af43af1N04ef5a16.png"></div></a>
+        </div>
+    </footer>
+
+</div>
+<script>
+
+        $.ajax({
+            url:"https://www.easy-mock.com/mock/5bff84b3c3b9c90b269c19a0/example/jd",
+            type:"get",  //get   post
+            data:{//往后台传输的数据    callback
+            },
+            async:false,  //同步
+            dataType:"json",
+            timout:4000
+        }).done(function (result) {
+            var data = result[0].data.list;
+//            var page = result[0].data.pageStart;
+//            console.log(page);
+            for (var i = 0; i < data.length; i++) {
+                $("#model").append(`
+
+                <div class="model1">
+                <div class="baot">
+                    <img src="${data[i].coverImg}" alt=""/>
+                </div>
+                <span class="similar-product-text">${data[i].describe}</span>
+                <p class="similar-product-info">
+                    <span class="similar-product-price">
+                        <span class="big-price">${data[i].creatAt}</span>
+                    </span>
+                    <span data-event_id="MHomeGuessYouLike_BSimilarities" data-event_level="1" data-event_param="1_32328633104_1" class="guess-button j_see_similar" jump-href="//home.m.jd.com/myjd/similar/list.action?skuId=32328633104">看相似</span>
+                </p>
+            </div>
+                                            `);
+
+            }
+        })
+
+
+
+
+    /*$(".click-loading").click(function () {
+        page++;
+        if(page>2){
+            $(".click-loading").html("没有更多内容了")
+        }else{
+            $("#model").append(`
+
+                <div class="model1">
+                <div class="baot">
+                    <img src="${data[i].coverImg}" alt=""/>
+                </div>
+                <span class="similar-product-text">${data[i].describe}</span>
+                <p class="similar-product-info">
+                    <span class="similar-product-price">
+                        <span class="big-price">${data[i].creatAt}</span>
+                    </span>
+                    <span data-event_id="MHomeGuessYouLike_BSimilarities" data-event_level="1" data-event_param="1_32328633104_1" class="guess-button j_see_similar" jump-href="//home.m.jd.com/myjd/similar/list.action?skuId=32328633104">看相似</span>
+                </p>
+            </div>
+                                            `);
+        }
+    })*/
+
+
+</script>
+</body>
+</html>
